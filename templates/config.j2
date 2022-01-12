@@ -112,13 +112,13 @@
     <users_config>users.xml</users_config>
 
     <!-- Default profile of settings. -->
-    <default_profile>default</default_profile>
+    <default_profile>{{ clickhouse_config.default_profile }}</default_profile>
 
     <!-- System profile of settings. This settings are used by internal processes (Buffer storage, Distibuted DDL worker and so on). -->
     <!-- <system_profile>default</system_profile> -->
 
     <!-- Default database. -->
-    <default_database>default</default_database>
+    <default_database>{{ clickhouse_config.default_database }}</default_database>
 
     <!-- Server time zone could be set here.
 

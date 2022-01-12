@@ -90,6 +90,8 @@ clickhouse_config:
   dictionaries_lazy_load: "{{ clickhouse_config_dictionaries_lazy_load }}"
   max_session_timeout: 3600
   default_session_timeout: 60
+  default_profile: "default"
+  default_database: "default"
 
 clickhouse_dicts: []
 
